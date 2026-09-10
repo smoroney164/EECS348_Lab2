@@ -13,4 +13,4 @@ hello.o: isOdd.c
 	$(CC) $(CFLAGS) isOdd.c
 clean:
 	del /Q *.o
-	del /Q program.exe
+	del /Q prog.exe
