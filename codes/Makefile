@@ -12,4 +12,5 @@ factorial.o: isEven.c
 hello.o: isOdd.c
 	$(CC) $(CFLAGS) isOdd.c
 clean:
-	rm -rf *.o prog
+	del /Q *.o
+	del /Q program.exe
