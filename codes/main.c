@@ -6,15 +6,15 @@
 int main() {
     int num;
     printf("Enter an integer: ");
-    scanf("%d", &num);
-    bool even = isEven(num);
-    bool odd = isOdd(num);
-    if(even){
-        printf("%d is even!", num);
+    scanf("%d", &num); //takes in number from user
+    bool even = isEven(num); //creates bool instance and sets to the returned value of isEven(num)
+    bool odd = isOdd(num); //creates bool instance and sets to the returned value of isOdd(num)
+    if(even){ //checks if the num is even. runs following block if true
+        printf("%d is even!", num); //if num is even, prints that the num is even
     }
-    else if(odd){
-        printf("%d is odd!", num);
+    else if(odd){ //if the num is not even, checks if odd. If true runs following block
+        printf("%d is odd!", num); //prints that the num is odd if its odd
     }
 
-    return 0;
+    return 0; //end main
 }
